@@ -35,25 +35,37 @@ public class TestMVCModelo {
 
 	@Test
 	public void testAgregar() {
+<<<<<<< HEAD
 		modelo.agregar("holi");
 		System.out.println(modelo.darTamano());
 		assertEquals("esto no deberia pasar", ""+101, ""+ modelo.darTamano());
 		// DONE Completar la prueba
+=======
+		// TODO Completar la prueba
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 		
 	}
 
 	@Test
 	public void testBuscar() {
 		setUp2();
+<<<<<<< HEAD
 		assertEquals(""+0, modelo.buscar(""+0));
 		// DONE Completar la prueba
+=======
+		// TODO Completar la prueba
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 	}
 
 	@Test
 	public void testEliminar() {
 		setUp2();
+<<<<<<< HEAD
 		assertEquals(""+1, modelo.buscar(""+1));
 		// DONE Completar la prueba
+=======
+		// TODO Completar la prueba
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 		
 	}
 

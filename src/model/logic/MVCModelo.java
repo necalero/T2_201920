@@ -1,5 +1,6 @@
 package model.logic;
 
+<<<<<<< HEAD
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -16,10 +17,16 @@ import java.io.FileReader;
 import java.io.IOException;
 
 import com.opencsv.CSVReader;
+=======
+import model.data_structures.ArregloDinamico;
+import model.data_structures.IArregloDinamico;
+
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 /**
  * Definicion del modelo del mundo
  *
  */
+<<<<<<< HEAD
 public class MVCModelo <Integer extends Comparable<Integer>>
 {
 	/**
@@ -31,6 +38,14 @@ public class MVCModelo <Integer extends Comparable<Integer>>
 
 	private Pila datosPila;
 
+=======
+public class MVCModelo {
+	/**
+	 * Atributos del modelo del mundo
+	 */
+	private IArregloDinamico datos;
+	
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 	/**
 	 * Constructor del modelo del mundo con capacidad predefinida
 	 */
@@ -38,16 +53,26 @@ public class MVCModelo <Integer extends Comparable<Integer>>
 	{
 		datos = new ArregloDinamico(7);
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 	/**
 	 * Constructor del modelo del mundo con capacidad dada
 	 * @param tamano
 	 */
 	public MVCModelo(int capacidad)
 	{
+<<<<<<< HEAD
 		datos = new <Viajes>ArregloDinamico(capacidad);
 	}
 
+=======
+		datos = new ArregloDinamico(capacidad);
+	}
+	
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 	/**
 	 * Servicio de consulta de numero de elementos presentes en el modelo 
 	 * @return numero de elementos presentes en el modelo
@@ -65,7 +90,11 @@ public class MVCModelo <Integer extends Comparable<Integer>>
 	{	
 		datos.agregar(dato);
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 	/**
 	 * Requerimiento buscar dato
 	 * @param dato Dato a buscar
@@ -75,7 +104,11 @@ public class MVCModelo <Integer extends Comparable<Integer>>
 	{
 		return datos.buscar(dato);
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 	/**
 	 * Requerimiento eliminar dato
 	 * @param dato Dato a eliminar
@@ -86,6 +119,7 @@ public class MVCModelo <Integer extends Comparable<Integer>>
 		return datos.eliminar(dato);
 	}
 
+<<<<<<< HEAD
 	public static void read(String[] args) {
 
 		CSVReader reader = null;
@@ -166,4 +200,7 @@ public class MVCModelo <Integer extends Comparable<Integer>>
 		}
 		return respuesta;
 	}
+=======
+
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 }

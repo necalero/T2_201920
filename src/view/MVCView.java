@@ -30,7 +30,11 @@ public class MVCView
 		
 		public void printModelo(MVCModelo modelo)
 		{
+<<<<<<< HEAD
 			System.out.println(modelo);
 			// DONE implementar
+=======
+			// TODO implementar
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 		}
 }

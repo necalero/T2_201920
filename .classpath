@@ -4,6 +4,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="CSVREAD/opencsv-4.0.jar"/>
+=======
+>>>>>>> 0aa8aa2a0dcb8ef0a26b1bf9254318a971fe539c
 	<classpathentry kind="output" path="bin"/>
 </classpath>
